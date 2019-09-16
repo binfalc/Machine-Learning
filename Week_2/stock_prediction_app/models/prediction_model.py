@@ -1,5 +1,6 @@
 import datetime
 import numpy as np
+import pandas as pd
 import sklearn as sk
 import matplotlib.pyplot as plt
 import datetime as dt
@@ -59,6 +60,10 @@ X_train, X_test, y_train, y_test = sk.model_selection.train_test_split(X, y, tes
 # Filtering NaN values
 X_train = X_train[~np.isnan(X_train)]
 y_train = y_train[~np.isnan(y_train)]
+
+# Reshape our training set dimension
+X_train = pd.factorize(df_reg['label'])[0].reshape(-1, 1)
+y_train = pd.factorize(df_reg['label'])[0].reshape(-1, 1)
 
 # Model generation -> Simple Linear Analysis, Quadratic Discriminant Analysis and KNN regression
 # Play the existing Scikit-Learn library and train the model by selecting our X and y train sets.
