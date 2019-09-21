@@ -28,7 +28,7 @@
     <li>Random forest prediction</li>
 </ol>
 
-<h4>Undersampling performance</h4>
+<h4>Confusion matrix, Precision- Recall Curves and AUC using Unbalanced data</h4>
 <img src="https://raw.githubusercontent.com/binfalc/Machine-Learning/master/Week_3/Fraud_Prediction/data/img/RF_imbal_1.png"></img>
 <img src="https://raw.githubusercontent.com/binfalc/Machine-Learning/master/Week_3/Fraud_Prediction/data/img/RF_imbal_2.png"></img>
 <img src="https://raw.githubusercontent.com/binfalc/Machine-Learning/master/Week_3/Fraud_Prediction/data/img/RF_imbal_3.png"></img>
@@ -36,13 +36,13 @@
 
 
 
-<h4>SMOTE Technique</h4>
+<h4>Confusion matrix, Precision- Recall Curves and AUC using Oversampled data with SMOTE</h4>
 
 <img src="https://raw.githubusercontent.com/binfalc/Machine-Learning/master/Week_3/Fraud_Prediction/data/img/RF_smote_1.png"></img>
 <img src="https://raw.githubusercontent.com/binfalc/Machine-Learning/master/Week_3/Fraud_Prediction/data/img/RF_smote_2.png"></img>
 <img src="https://raw.githubusercontent.com/binfalc/Machine-Learning/master/Week_3/Fraud_Prediction/data/img/RF_smote_3.png"></img>
 
-<h4>Random forest prediction</h4>
+<h4>Confusion matrix, Precision- Recall Curves and AUC using undersampling data</h4>
 <img src="https://raw.githubusercontent.com/binfalc/Machine-Learning/master/Week_3/Fraud_Prediction/data/img/RF_undersam_1.png"></img>
 <img src="https://raw.githubusercontent.com/binfalc/Machine-Learning/master/Week_3/Fraud_Prediction/data/img/RF_undersam_2.png"></img>
 <img src="https://raw.githubusercontent.com/binfalc/Machine-Learning/master/Week_3/Fraud_Prediction/data/img/RF_undersam_3.png"></img>
